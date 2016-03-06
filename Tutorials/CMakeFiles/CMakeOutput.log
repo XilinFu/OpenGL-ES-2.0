@@ -1,0 +1,902 @@
+The system is: Darwin - 14.5.0 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags: 
+
+The output was:
+0
+2016-03-06 11:28:32.853 xcodebuild[2351:59871] [MT] PluginLoading: Required plug-in compatibility UUID F41BD31E-2683-44B8-AE7F-5F09E919790E for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/KSImageNamed.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+=== BUILD TARGET CompilerIdC OF PROJECT CompilerIdC WITH THE DEFAULT CONFIGURATION (Debug) ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/3.2.3/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/i386
+write-file /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/3.2.3/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/i386/CompilerIdC.LinkFileList
+write-file /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/3.2.3/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+chmod 0755 /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/3.2.3/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+write-file /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/3.2.3/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC.hmap
+
+CompileC CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/i386/CMakeCCompilerId.o CMakeCCompilerId.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/3.2.3/CompilerIdC
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.11 -g -fvisibility=hidden -Wno-sign-conversion -I/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/3.2.3/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC.hmap -I/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/3.2.3/CompilerIdC/include -I/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/3.2.3/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/DerivedSources/i386 -I/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/3.2.3/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/DerivedSources -F/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/3.2.3/CompilerIdC -MMD -MT dependencies -MF /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/3.2.3/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/i386/CMakeCCompilerId.d --serialize-diagnostics /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/3.2.3/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/i386/CMakeCCompilerId.dia -c /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/3.2.3/CompilerIdC/CMakeCCompilerId.c -o /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/3.2.3/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/i386/CMakeCCompilerId.o
+
+Ld CompilerIdC normal i386
+    cd /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/3.2.3/CompilerIdC
+    export MACOSX_DEPLOYMENT_TARGET=10.11
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -L/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/3.2.3/CompilerIdC -F/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/3.2.3/CompilerIdC -filelist /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/3.2.3/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/i386/CompilerIdC.LinkFileList -mmacosx-version-min=10.11 -Xlinker -dependency_info -Xlinker /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/3.2.3/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/i386/CompilerIdC_dependency_info.dat -o /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/3.2.3/CompilerIdC/CompilerIdC
+
+PhaseScriptExecution Run\ Script CompilerIdC.build/Debug/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+    cd /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/3.2.3/CompilerIdC
+    /bin/sh -c /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/3.2.3/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+GCC_VERSION=com.apple.compilers.llvm.clang.1_0
+
+** BUILD SUCCEEDED **
+
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC"
+
+The C compiler identification is AppleClang, found in "/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/3.2.3/CompilerIdC/CompilerIdC"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler:  
+Build flags: 
+Id flags: 
+
+The output was:
+0
+2016-03-06 11:28:34.315 xcodebuild[2365:59957] [MT] PluginLoading: Required plug-in compatibility UUID F41BD31E-2683-44B8-AE7F-5F09E919790E for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/KSImageNamed.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+=== BUILD TARGET CompilerIdCXX OF PROJECT CompilerIdCXX WITH THE DEFAULT CONFIGURATION (Debug) ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/3.2.3/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/i386
+write-file /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/3.2.3/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/i386/CompilerIdCXX.LinkFileList
+write-file /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/3.2.3/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+chmod 0755 /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/3.2.3/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+write-file /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/3.2.3/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX.hmap
+
+CompileC CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/i386/CMakeCXXCompilerId.o CMakeCXXCompilerId.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/3.2.3/CompilerIdCXX
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.11 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -I/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/3.2.3/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX.hmap -I/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/3.2.3/CompilerIdCXX/include -I/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/3.2.3/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/DerivedSources/i386 -I/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/3.2.3/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/DerivedSources -F/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/3.2.3/CompilerIdCXX -MMD -MT dependencies -MF /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/3.2.3/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/i386/CMakeCXXCompilerId.d --serialize-diagnostics /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/3.2.3/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/i386/CMakeCXXCompilerId.dia -c /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/3.2.3/CompilerIdCXX/CMakeCXXCompilerId.cpp -o /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/3.2.3/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/i386/CMakeCXXCompilerId.o
+
+Ld CompilerIdCXX normal i386
+    cd /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/3.2.3/CompilerIdCXX
+    export MACOSX_DEPLOYMENT_TARGET=10.11
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -L/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/3.2.3/CompilerIdCXX -F/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/3.2.3/CompilerIdCXX -filelist /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/3.2.3/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/i386/CompilerIdCXX.LinkFileList -mmacosx-version-min=10.11 -Xlinker -dependency_info -Xlinker /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/3.2.3/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/i386/CompilerIdCXX_dependency_info.dat -o /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/3.2.3/CompilerIdCXX/CompilerIdCXX
+
+PhaseScriptExecution Run\ Script CompilerIdCXX.build/Debug/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+    cd /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/3.2.3/CompilerIdCXX
+    /bin/sh -c /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/3.2.3/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+GCC_VERSION=com.apple.compilers.llvm.clang.1_0
+
+** BUILD SUCCEEDED **
+
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX"
+
+The CXX compiler identification is AppleClang, found in "/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/3.2.3/CompilerIdCXX/CompilerIdCXX"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTryCompileExec950549494" "-configuration" "Debug"
+2016-03-06 11:28:37.501 xcodebuild[2382:60016] [MT] PluginLoading: Required plug-in compatibility UUID F41BD31E-2683-44B8-AE7F-5F09E919790E for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/KSImageNamed.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+=== BUILD TARGET cmTryCompileExec950549494 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec950549494.build/Objects-normal/x86_64
+write-file /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec950549494.build/Objects-normal/x86_64/cmTryCompileExec950549494.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec950549494.build/Objects-normal/x86_64/testCCompiler.o testCCompiler.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.11 -g -Wno-sign-conversion -I/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/Debug/include -I/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec950549494.build/DerivedSources/x86_64 -I/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec950549494.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/Debug -MMD -MT dependencies -MF /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec950549494.build/Objects-normal/x86_64/testCCompiler.d --serialize-diagnostics /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec950549494.build/Objects-normal/x86_64/testCCompiler.dia -c /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/testCCompiler.c -o /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec950549494.build/Objects-normal/x86_64/testCCompiler.o
+
+Ld Debug/cmTryCompileExec950549494 normal x86_64
+    cd /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp
+    export MACOSX_DEPLOYMENT_TARGET=10.11
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -L/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/Debug -F/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/Debug -filelist /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec950549494.build/Objects-normal/x86_64/cmTryCompileExec950549494.LinkFileList -mmacosx-version-min=10.11 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec950549494.build/Objects-normal/x86_64/cmTryCompileExec950549494_dependency_info.dat -o /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec950549494
+
+** BUILD SUCCEEDED **
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTryCompileExec2281294972" "-configuration" "Debug"
+2016-03-06 11:28:38.315 xcodebuild[2398:60062] [MT] PluginLoading: Required plug-in compatibility UUID F41BD31E-2683-44B8-AE7F-5F09E919790E for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/KSImageNamed.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+=== BUILD TARGET cmTryCompileExec2281294972 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2281294972.build/Objects-normal/x86_64
+write-file /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2281294972.build/Objects-normal/x86_64/cmTryCompileExec2281294972.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2281294972.build/Objects-normal/x86_64/CMakeCCompilerABI.o /Applications/CMake.app/Contents/share/cmake-3.2/Modules/CMakeCCompilerABI.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.11 -g -Wno-sign-conversion -I/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/Debug/include -I/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2281294972.build/DerivedSources/x86_64 -I/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2281294972.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/Debug -MMD -MT dependencies -MF /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2281294972.build/Objects-normal/x86_64/CMakeCCompilerABI.d --serialize-diagnostics /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2281294972.build/Objects-normal/x86_64/CMakeCCompilerABI.dia -c /Applications/CMake.app/Contents/share/cmake-3.2/Modules/CMakeCCompilerABI.c -o /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2281294972.build/Objects-normal/x86_64/CMakeCCompilerABI.o
+
+Ld Debug/cmTryCompileExec2281294972 normal x86_64
+    cd /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp
+    export MACOSX_DEPLOYMENT_TARGET=10.11
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -L/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/Debug -F/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/Debug -filelist /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2281294972.build/Objects-normal/x86_64/cmTryCompileExec2281294972.LinkFileList -mmacosx-version-min=10.11 -v -Wl,-v -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2281294972.build/Objects-normal/x86_64/cmTryCompileExec2281294972_dependency_info.dat -o /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2281294972
+Apple LLVM version 7.0.2 (clang-700.1.81)
+Target: x86_64-apple-darwin14.5.0
+Thread model: posix
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.11.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -o /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2281294972 -L/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/Debug -filelist /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2281294972.build/Objects-normal/x86_64/cmTryCompileExec2281294972.LinkFileList -v -search_paths_first -headerpad_max_install_names -dependency_info /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2281294972.build/Objects-normal/x86_64/cmTryCompileExec2281294972_dependency_info.dat -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.0.2/lib/darwin/libclang_rt.osx.a -F/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/Debug
+@(#)PROGRAM:ld  PROJECT:ld64-253.9
+configured to support archs: armv6 armv7 armv7s arm64 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em (tvOS)
+Library search paths:
+	/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/Debug
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/usr/lib
+Framework search paths:
+	/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/Debug
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/
+
+** BUILD SUCCEEDED **
+
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTryCompileExec2281294972" "-configuration" "Debug"]
+  ignore line: [2016-03-06 11:28:38.315 xcodebuild[2398:60062] [MT] PluginLoading: Required plug-in compatibility UUID F41BD31E-2683-44B8-AE7F-5F09E919790E for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/KSImageNamed.xcplugin' not present in DVTPlugInCompatibilityUUIDs]
+  ignore line: [=== BUILD TARGET cmTryCompileExec2281294972 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===]
+  ignore line: []
+  ignore line: [Check dependencies]
+  ignore line: []
+  ignore line: [Write auxiliary files]
+  ignore line: [/bin/mkdir -p /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2281294972.build/Objects-normal/x86_64]
+  ignore line: [write-file /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2281294972.build/Objects-normal/x86_64/cmTryCompileExec2281294972.LinkFileList]
+  ignore line: []
+  ignore line: [CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2281294972.build/Objects-normal/x86_64/CMakeCCompilerABI.o /Applications/CMake.app/Contents/share/cmake-3.2/Modules/CMakeCCompilerABI.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler]
+  ignore line: [    cd /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp]
+  ignore line: [    export LANG=en_US.US-ASCII]
+  ignore line: [    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.11 -g -Wno-sign-conversion -I/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/Debug/include -I/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2281294972.build/DerivedSources/x86_64 -I/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2281294972.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/Debug -MMD -MT dependencies -MF /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2281294972.build/Objects-normal/x86_64/CMakeCCompilerABI.d --serialize-diagnostics /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2281294972.build/Objects-normal/x86_64/CMakeCCompilerABI.dia -c /Applications/CMake.app/Contents/share/cmake-3.2/Modules/CMakeCCompilerABI.c -o /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2281294972.build/Objects-normal/x86_64/CMakeCCompilerABI.o]
+  ignore line: []
+  ignore line: [Ld Debug/cmTryCompileExec2281294972 normal x86_64]
+  ignore line: [    cd /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp]
+  ignore line: [    export MACOSX_DEPLOYMENT_TARGET=10.11]
+  ignore line: [    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -L/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/Debug -F/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/Debug -filelist /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2281294972.build/Objects-normal/x86_64/cmTryCompileExec2281294972.LinkFileList -mmacosx-version-min=10.11 -v -Wl,-v -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2281294972.build/Objects-normal/x86_64/cmTryCompileExec2281294972_dependency_info.dat -o /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2281294972]
+  ignore line: [Apple LLVM version 7.0.2 (clang-700.1.81)]
+  ignore line: [Target: x86_64-apple-darwin14.5.0]
+  ignore line: [Thread model: posix]
+  reduced line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.11.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -o /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2281294972 -L/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/Debug -filelist /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2281294972.build/Objects-normal/x86_64/cmTryCompileExec2281294972.LinkFileList -v -search_paths_first -headerpad_max_install_names -dependency_info /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2281294972.build/Objects-normal/x86_64/cmTryCompileExec2281294972_dependency_info.dat -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.0.2/lib/darwin/libclang_rt.osx.a -F/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/Debug]
+            to: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.11.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -o /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2281294972 -filelist /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2281294972.build/Objects-normal/x86_64/cmTryCompileExec2281294972.LinkFileList -v -search_paths_first -headerpad_max_install_names -dependency_info /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2281294972.build/Objects-normal/x86_64/cmTryCompileExec2281294972_dependency_info.dat -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.0.2/lib/darwin/libclang_rt.osx.a ]
+  link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.11.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -o /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2281294972 -filelist /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2281294972.build/Objects-normal/x86_64/cmTryCompileExec2281294972.LinkFileList -v -search_paths_first -headerpad_max_install_names -dependency_info /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2281294972.build/Objects-normal/x86_64/cmTryCompileExec2281294972_dependency_info.dat -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.0.2/lib/darwin/libclang_rt.osx.a ]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-macosx_version_min] ==> ignore
+    arg [10.11.0] ==> ignore
+    arg [-syslibroot] ==> ignore
+    arg [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk] ==> ignore
+    arg [-o] ==> ignore
+    arg [/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2281294972] ==> ignore
+    arg [-filelist] ==> ignore
+    arg [/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2281294972.build/Objects-normal/x86_64/cmTryCompileExec2281294972.LinkFileList] ==> ignore
+    arg [-v] ==> ignore
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-dependency_info] ==> ignore
+    arg [/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2281294972.build/Objects-normal/x86_64/cmTryCompileExec2281294972_dependency_info.dat] ==> ignore
+    arg [-lSystem] ==> lib [System]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.0.2/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.0.2/lib/darwin/libclang_rt.osx.a]
+  Library search paths: [;/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/Debug;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/usr/lib]
+  Framework search paths: [;/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/Debug;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/]
+  remove lib [System]
+  collapse lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.0.2/lib/darwin/libclang_rt.osx.a] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/7.0.2/lib/darwin/libclang_rt.osx.a]
+  collapse library dir [/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/Debug] ==> [/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/Debug], skipping non-system directory
+  collapse library dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/usr/lib] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/usr/lib]
+  collapse framework dir [/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/Debug] ==> [/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/Debug], skipping non-system directory
+  collapse framework dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks]
+  implicit libs: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/7.0.2/lib/darwin/libclang_rt.osx.a]
+  implicit dirs: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/usr/lib]
+  implicit fwks: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks]
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTryCompileExec1472324896" "-configuration" "Debug"
+2016-03-06 11:28:39.224 xcodebuild[2414:60107] [MT] PluginLoading: Required plug-in compatibility UUID F41BD31E-2683-44B8-AE7F-5F09E919790E for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/KSImageNamed.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+=== BUILD TARGET cmTryCompileExec1472324896 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1472324896.build/Objects-normal/x86_64
+write-file /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1472324896.build/Objects-normal/x86_64/cmTryCompileExec1472324896.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1472324896.build/Objects-normal/x86_64/feature_tests.o /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/feature_tests.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.11 -g -Wno-sign-conversion -I/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/Debug/include -I/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1472324896.build/DerivedSources/x86_64 -I/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1472324896.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/Debug -std=c11 -MMD -MT dependencies -MF /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1472324896.build/Objects-normal/x86_64/feature_tests.d --serialize-diagnostics /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1472324896.build/Objects-normal/x86_64/feature_tests.dia -c /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/feature_tests.c -o /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1472324896.build/Objects-normal/x86_64/feature_tests.o
+
+Ld Debug/cmTryCompileExec1472324896 normal x86_64
+    cd /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp
+    export MACOSX_DEPLOYMENT_TARGET=10.11
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -L/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/Debug -F/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/Debug -filelist /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1472324896.build/Objects-normal/x86_64/cmTryCompileExec1472324896.LinkFileList -mmacosx-version-min=10.11 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1472324896.build/Objects-normal/x86_64/cmTryCompileExec1472324896_dependency_info.dat -o /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1472324896
+
+** BUILD SUCCEEDED **
+
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTryCompileExec4130856090" "-configuration" "Debug"
+2016-03-06 11:28:40.065 xcodebuild[2430:60160] [MT] PluginLoading: Required plug-in compatibility UUID F41BD31E-2683-44B8-AE7F-5F09E919790E for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/KSImageNamed.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+=== BUILD TARGET cmTryCompileExec4130856090 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec4130856090.build/Objects-normal/x86_64
+write-file /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec4130856090.build/Objects-normal/x86_64/cmTryCompileExec4130856090.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec4130856090.build/Objects-normal/x86_64/feature_tests.o /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/feature_tests.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.11 -g -Wno-sign-conversion -I/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/Debug/include -I/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec4130856090.build/DerivedSources/x86_64 -I/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec4130856090.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/Debug -std=c99 -MMD -MT dependencies -MF /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec4130856090.build/Objects-normal/x86_64/feature_tests.d --serialize-diagnostics /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec4130856090.build/Objects-normal/x86_64/feature_tests.dia -c /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/feature_tests.c -o /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec4130856090.build/Objects-normal/x86_64/feature_tests.o
+
+Ld Debug/cmTryCompileExec4130856090 normal x86_64
+    cd /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp
+    export MACOSX_DEPLOYMENT_TARGET=10.11
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -L/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/Debug -F/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/Debug -filelist /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec4130856090.build/Objects-normal/x86_64/cmTryCompileExec4130856090.LinkFileList -mmacosx-version-min=10.11 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec4130856090.build/Objects-normal/x86_64/cmTryCompileExec4130856090_dependency_info.dat -o /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec4130856090
+
+** BUILD SUCCEEDED **
+
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTryCompileExec2971959782" "-configuration" "Debug"
+2016-03-06 11:28:40.877 xcodebuild[2446:60209] [MT] PluginLoading: Required plug-in compatibility UUID F41BD31E-2683-44B8-AE7F-5F09E919790E for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/KSImageNamed.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+=== BUILD TARGET cmTryCompileExec2971959782 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2971959782.build/Objects-normal/x86_64
+write-file /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2971959782.build/Objects-normal/x86_64/cmTryCompileExec2971959782.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2971959782.build/Objects-normal/x86_64/feature_tests.o /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/feature_tests.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.11 -g -Wno-sign-conversion -I/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/Debug/include -I/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2971959782.build/DerivedSources/x86_64 -I/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2971959782.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/Debug -std=c90 -MMD -MT dependencies -MF /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2971959782.build/Objects-normal/x86_64/feature_tests.d --serialize-diagnostics /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2971959782.build/Objects-normal/x86_64/feature_tests.dia -c /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/feature_tests.c -o /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2971959782.build/Objects-normal/x86_64/feature_tests.o
+
+Ld Debug/cmTryCompileExec2971959782 normal x86_64
+    cd /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp
+    export MACOSX_DEPLOYMENT_TARGET=10.11
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -L/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/Debug -F/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/Debug -filelist /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2971959782.build/Objects-normal/x86_64/cmTryCompileExec2971959782.LinkFileList -mmacosx-version-min=10.11 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2971959782.build/Objects-normal/x86_64/cmTryCompileExec2971959782_dependency_info.dat -o /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2971959782
+
+** BUILD SUCCEEDED **
+
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTryCompileExec2853004775" "-configuration" "Debug"
+2016-03-06 11:28:41.765 xcodebuild[2462:60261] [MT] PluginLoading: Required plug-in compatibility UUID F41BD31E-2683-44B8-AE7F-5F09E919790E for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/KSImageNamed.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+=== BUILD TARGET cmTryCompileExec2853004775 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2853004775.build/Objects-normal/x86_64
+write-file /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2853004775.build/Objects-normal/x86_64/cmTryCompileExec2853004775.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2853004775.build/Objects-normal/x86_64/testCXXCompiler.o testCXXCompiler.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.11 -Wno-sign-conversion -I/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/Debug/include -I/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2853004775.build/DerivedSources/x86_64 -I/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2853004775.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/Debug -g -MMD -MT dependencies -MF /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2853004775.build/Objects-normal/x86_64/testCXXCompiler.d --serialize-diagnostics /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2853004775.build/Objects-normal/x86_64/testCXXCompiler.dia -c /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/testCXXCompiler.cxx -o /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2853004775.build/Objects-normal/x86_64/testCXXCompiler.o
+
+Ld Debug/cmTryCompileExec2853004775 normal x86_64
+    cd /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp
+    export MACOSX_DEPLOYMENT_TARGET=10.11
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -L/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/Debug -F/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/Debug -filelist /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2853004775.build/Objects-normal/x86_64/cmTryCompileExec2853004775.LinkFileList -mmacosx-version-min=10.11 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2853004775.build/Objects-normal/x86_64/cmTryCompileExec2853004775_dependency_info.dat -o /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2853004775
+
+** BUILD SUCCEEDED **
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTryCompileExec2081423811" "-configuration" "Debug"
+2016-03-06 11:28:42.570 xcodebuild[2478:60310] [MT] PluginLoading: Required plug-in compatibility UUID F41BD31E-2683-44B8-AE7F-5F09E919790E for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/KSImageNamed.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+=== BUILD TARGET cmTryCompileExec2081423811 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2081423811.build/Objects-normal/x86_64
+write-file /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2081423811.build/Objects-normal/x86_64/cmTryCompileExec2081423811.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2081423811.build/Objects-normal/x86_64/CMakeCXXCompilerABI.o /Applications/CMake.app/Contents/share/cmake-3.2/Modules/CMakeCXXCompilerABI.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.11 -Wno-sign-conversion -I/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/Debug/include -I/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2081423811.build/DerivedSources/x86_64 -I/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2081423811.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/Debug -g -MMD -MT dependencies -MF /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2081423811.build/Objects-normal/x86_64/CMakeCXXCompilerABI.d --serialize-diagnostics /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2081423811.build/Objects-normal/x86_64/CMakeCXXCompilerABI.dia -c /Applications/CMake.app/Contents/share/cmake-3.2/Modules/CMakeCXXCompilerABI.cpp -o /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2081423811.build/Objects-normal/x86_64/CMakeCXXCompilerABI.o
+
+Ld Debug/cmTryCompileExec2081423811 normal x86_64
+    cd /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp
+    export MACOSX_DEPLOYMENT_TARGET=10.11
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -L/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/Debug -F/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/Debug -filelist /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2081423811.build/Objects-normal/x86_64/cmTryCompileExec2081423811.LinkFileList -mmacosx-version-min=10.11 -v -Wl,-v -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2081423811.build/Objects-normal/x86_64/cmTryCompileExec2081423811_dependency_info.dat -o /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2081423811
+Apple LLVM version 7.0.2 (clang-700.1.81)
+Target: x86_64-apple-darwin14.5.0
+Thread model: posix
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.11.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -o /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2081423811 -L/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/Debug -filelist /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2081423811.build/Objects-normal/x86_64/cmTryCompileExec2081423811.LinkFileList -v -search_paths_first -headerpad_max_install_names -dependency_info /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2081423811.build/Objects-normal/x86_64/cmTryCompileExec2081423811_dependency_info.dat -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.0.2/lib/darwin/libclang_rt.osx.a -F/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/Debug
+@(#)PROGRAM:ld  PROJECT:ld64-253.9
+configured to support archs: armv6 armv7 armv7s arm64 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em (tvOS)
+Library search paths:
+	/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/Debug
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/usr/lib
+Framework search paths:
+	/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/Debug
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/
+
+** BUILD SUCCEEDED **
+
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTryCompileExec2081423811" "-configuration" "Debug"]
+  ignore line: [2016-03-06 11:28:42.570 xcodebuild[2478:60310] [MT] PluginLoading: Required plug-in compatibility UUID F41BD31E-2683-44B8-AE7F-5F09E919790E for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/KSImageNamed.xcplugin' not present in DVTPlugInCompatibilityUUIDs]
+  ignore line: [=== BUILD TARGET cmTryCompileExec2081423811 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===]
+  ignore line: []
+  ignore line: [Check dependencies]
+  ignore line: []
+  ignore line: [Write auxiliary files]
+  ignore line: [/bin/mkdir -p /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2081423811.build/Objects-normal/x86_64]
+  ignore line: [write-file /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2081423811.build/Objects-normal/x86_64/cmTryCompileExec2081423811.LinkFileList]
+  ignore line: []
+  ignore line: [CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2081423811.build/Objects-normal/x86_64/CMakeCXXCompilerABI.o /Applications/CMake.app/Contents/share/cmake-3.2/Modules/CMakeCXXCompilerABI.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler]
+  ignore line: [    cd /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp]
+  ignore line: [    export LANG=en_US.US-ASCII]
+  ignore line: [    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.11 -Wno-sign-conversion -I/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/Debug/include -I/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2081423811.build/DerivedSources/x86_64 -I/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2081423811.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/Debug -g -MMD -MT dependencies -MF /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2081423811.build/Objects-normal/x86_64/CMakeCXXCompilerABI.d --serialize-diagnostics /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2081423811.build/Objects-normal/x86_64/CMakeCXXCompilerABI.dia -c /Applications/CMake.app/Contents/share/cmake-3.2/Modules/CMakeCXXCompilerABI.cpp -o /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2081423811.build/Objects-normal/x86_64/CMakeCXXCompilerABI.o]
+  ignore line: []
+  ignore line: [Ld Debug/cmTryCompileExec2081423811 normal x86_64]
+  ignore line: [    cd /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp]
+  ignore line: [    export MACOSX_DEPLOYMENT_TARGET=10.11]
+  ignore line: [    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -L/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/Debug -F/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/Debug -filelist /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2081423811.build/Objects-normal/x86_64/cmTryCompileExec2081423811.LinkFileList -mmacosx-version-min=10.11 -v -Wl,-v -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2081423811.build/Objects-normal/x86_64/cmTryCompileExec2081423811_dependency_info.dat -o /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2081423811]
+  ignore line: [Apple LLVM version 7.0.2 (clang-700.1.81)]
+  ignore line: [Target: x86_64-apple-darwin14.5.0]
+  ignore line: [Thread model: posix]
+  reduced line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.11.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -o /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2081423811 -L/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/Debug -filelist /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2081423811.build/Objects-normal/x86_64/cmTryCompileExec2081423811.LinkFileList -v -search_paths_first -headerpad_max_install_names -dependency_info /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2081423811.build/Objects-normal/x86_64/cmTryCompileExec2081423811_dependency_info.dat -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.0.2/lib/darwin/libclang_rt.osx.a -F/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/Debug]
+            to: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.11.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -o /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2081423811 -filelist /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2081423811.build/Objects-normal/x86_64/cmTryCompileExec2081423811.LinkFileList -v -search_paths_first -headerpad_max_install_names -dependency_info /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2081423811.build/Objects-normal/x86_64/cmTryCompileExec2081423811_dependency_info.dat -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.0.2/lib/darwin/libclang_rt.osx.a ]
+  link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.11.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -o /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2081423811 -filelist /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2081423811.build/Objects-normal/x86_64/cmTryCompileExec2081423811.LinkFileList -v -search_paths_first -headerpad_max_install_names -dependency_info /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2081423811.build/Objects-normal/x86_64/cmTryCompileExec2081423811_dependency_info.dat -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.0.2/lib/darwin/libclang_rt.osx.a ]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-macosx_version_min] ==> ignore
+    arg [10.11.0] ==> ignore
+    arg [-syslibroot] ==> ignore
+    arg [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk] ==> ignore
+    arg [-o] ==> ignore
+    arg [/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2081423811] ==> ignore
+    arg [-filelist] ==> ignore
+    arg [/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2081423811.build/Objects-normal/x86_64/cmTryCompileExec2081423811.LinkFileList] ==> ignore
+    arg [-v] ==> ignore
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-dependency_info] ==> ignore
+    arg [/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2081423811.build/Objects-normal/x86_64/cmTryCompileExec2081423811_dependency_info.dat] ==> ignore
+    arg [-lc++] ==> lib [c++]
+    arg [-lSystem] ==> lib [System]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.0.2/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.0.2/lib/darwin/libclang_rt.osx.a]
+  Library search paths: [;/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/Debug;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/usr/lib]
+  Framework search paths: [;/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/Debug;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/]
+  remove lib [System]
+  collapse lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.0.2/lib/darwin/libclang_rt.osx.a] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/7.0.2/lib/darwin/libclang_rt.osx.a]
+  collapse library dir [/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/Debug] ==> [/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/Debug], skipping non-system directory
+  collapse library dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/usr/lib] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/usr/lib]
+  collapse framework dir [/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/Debug] ==> [/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/Debug], skipping non-system directory
+  collapse framework dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks]
+  implicit libs: [c++;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/7.0.2/lib/darwin/libclang_rt.osx.a]
+  implicit dirs: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/usr/lib]
+  implicit fwks: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks]
+
+
+
+
+Detecting CXX [-std=c++1y] compiler features compiled with the following output:
+Change Dir: /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTryCompileExec610424545" "-configuration" "Debug"
+2016-03-06 11:28:43.448 xcodebuild[2494:60358] [MT] PluginLoading: Required plug-in compatibility UUID F41BD31E-2683-44B8-AE7F-5F09E919790E for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/KSImageNamed.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+=== BUILD TARGET cmTryCompileExec610424545 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec610424545.build/Objects-normal/x86_64
+write-file /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec610424545.build/Objects-normal/x86_64/cmTryCompileExec610424545.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec610424545.build/Objects-normal/x86_64/feature_tests.o /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/feature_tests.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.11 -Wno-sign-conversion -I/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/Debug/include -I/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec610424545.build/DerivedSources/x86_64 -I/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec610424545.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/Debug -g -std=c++1y -MMD -MT dependencies -MF /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec610424545.build/Objects-normal/x86_64/feature_tests.d --serialize-diagnostics /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec610424545.build/Objects-normal/x86_64/feature_tests.dia -c /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/feature_tests.cxx -o /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec610424545.build/Objects-normal/x86_64/feature_tests.o
+
+Ld Debug/cmTryCompileExec610424545 normal x86_64
+    cd /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp
+    export MACOSX_DEPLOYMENT_TARGET=10.11
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -L/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/Debug -F/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/Debug -filelist /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec610424545.build/Objects-normal/x86_64/cmTryCompileExec610424545.LinkFileList -mmacosx-version-min=10.11 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec610424545.build/Objects-normal/x86_64/cmTryCompileExec610424545_dependency_info.dat -o /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec610424545
+
+** BUILD SUCCEEDED **
+
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTryCompileExec2767028218" "-configuration" "Debug"
+2016-03-06 11:28:44.302 xcodebuild[2510:60406] [MT] PluginLoading: Required plug-in compatibility UUID F41BD31E-2683-44B8-AE7F-5F09E919790E for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/KSImageNamed.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+=== BUILD TARGET cmTryCompileExec2767028218 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2767028218.build/Objects-normal/x86_64
+write-file /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2767028218.build/Objects-normal/x86_64/cmTryCompileExec2767028218.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2767028218.build/Objects-normal/x86_64/feature_tests.o /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/feature_tests.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.11 -Wno-sign-conversion -I/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/Debug/include -I/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2767028218.build/DerivedSources/x86_64 -I/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2767028218.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/Debug -g -std=c++11 -MMD -MT dependencies -MF /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2767028218.build/Objects-normal/x86_64/feature_tests.d --serialize-diagnostics /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2767028218.build/Objects-normal/x86_64/feature_tests.dia -c /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/feature_tests.cxx -o /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2767028218.build/Objects-normal/x86_64/feature_tests.o
+
+Ld Debug/cmTryCompileExec2767028218 normal x86_64
+    cd /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp
+    export MACOSX_DEPLOYMENT_TARGET=10.11
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -L/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/Debug -F/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/Debug -filelist /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2767028218.build/Objects-normal/x86_64/cmTryCompileExec2767028218.LinkFileList -mmacosx-version-min=10.11 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2767028218.build/Objects-normal/x86_64/cmTryCompileExec2767028218_dependency_info.dat -o /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2767028218
+
+** BUILD SUCCEEDED **
+
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTryCompileExec3532498359" "-configuration" "Debug"
+2016-03-06 11:28:45.209 xcodebuild[2526:60508] [MT] PluginLoading: Required plug-in compatibility UUID F41BD31E-2683-44B8-AE7F-5F09E919790E for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/KSImageNamed.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+=== BUILD TARGET cmTryCompileExec3532498359 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3532498359.build/Objects-normal/x86_64
+write-file /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3532498359.build/Objects-normal/x86_64/cmTryCompileExec3532498359.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3532498359.build/Objects-normal/x86_64/feature_tests.o /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/feature_tests.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.11 -Wno-sign-conversion -I/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/Debug/include -I/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3532498359.build/DerivedSources/x86_64 -I/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3532498359.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/Debug -g -std=c++98 -MMD -MT dependencies -MF /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3532498359.build/Objects-normal/x86_64/feature_tests.d --serialize-diagnostics /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3532498359.build/Objects-normal/x86_64/feature_tests.dia -c /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/feature_tests.cxx -o /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3532498359.build/Objects-normal/x86_64/feature_tests.o
+
+Ld Debug/cmTryCompileExec3532498359 normal x86_64
+    cd /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp
+    export MACOSX_DEPLOYMENT_TARGET=10.11
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -L/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/Debug -F/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/Debug -filelist /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3532498359.build/Objects-normal/x86_64/cmTryCompileExec3532498359.LinkFileList -mmacosx-version-min=10.11 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3532498359.build/Objects-normal/x86_64/cmTryCompileExec3532498359_dependency_info.dat -o /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3532498359
+
+** BUILD SUCCEEDED **
+
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates
+Determining if files pthread.h exist passed with the following output:
+Change Dir: /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTryCompileExec436304255" "-configuration" "Debug"
+2016-03-06 11:28:49.225 xcodebuild[2547:60625] [MT] PluginLoading: Required plug-in compatibility UUID F41BD31E-2683-44B8-AE7F-5F09E919790E for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/KSImageNamed.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+=== BUILD TARGET cmTryCompileExec436304255 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec436304255.build/Objects-normal/x86_64
+write-file /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec436304255.build/Objects-normal/x86_64/cmTryCompileExec436304255.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec436304255.build/Objects-normal/x86_64/CheckIncludeFiles.o CheckIncludeFiles.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.11 -g -Wno-sign-conversion -I/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/Debug/include -I/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec436304255.build/DerivedSources/x86_64 -I/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec436304255.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/Debug -MMD -MT dependencies -MF /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec436304255.build/Objects-normal/x86_64/CheckIncludeFiles.d --serialize-diagnostics /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec436304255.build/Objects-normal/x86_64/CheckIncludeFiles.dia -c /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CheckIncludeFiles.c -o /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec436304255.build/Objects-normal/x86_64/CheckIncludeFiles.o
+
+Ld Debug/cmTryCompileExec436304255 normal x86_64
+    cd /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp
+    export MACOSX_DEPLOYMENT_TARGET=10.11
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -L/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/Debug -F/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/Debug -filelist /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec436304255.build/Objects-normal/x86_64/cmTryCompileExec436304255.LinkFileList -mmacosx-version-min=10.11 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec436304255.build/Objects-normal/x86_64/cmTryCompileExec436304255_dependency_info.dat -o /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec436304255
+
+** BUILD SUCCEEDED **
+
+
+
+Determining if the pthread_create exist passed with the following output:
+Change Dir: /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTryCompileExec1159201691" "-configuration" "Debug"
+2016-03-06 11:28:50.891 xcodebuild[2570:60755] [MT] PluginLoading: Required plug-in compatibility UUID F41BD31E-2683-44B8-AE7F-5F09E919790E for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/KSImageNamed.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+=== BUILD TARGET cmTryCompileExec1159201691 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1159201691.build/Objects-normal/x86_64
+write-file /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1159201691.build/Objects-normal/x86_64/cmTryCompileExec1159201691.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1159201691.build/Objects-normal/x86_64/CheckSymbolExists.o CheckSymbolExists.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.11 -g -Wno-sign-conversion -I/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/Debug/include -I/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1159201691.build/DerivedSources/x86_64 -I/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1159201691.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/Debug -MMD -MT dependencies -MF /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1159201691.build/Objects-normal/x86_64/CheckSymbolExists.d --serialize-diagnostics /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1159201691.build/Objects-normal/x86_64/CheckSymbolExists.dia -c /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CheckSymbolExists.c -o /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1159201691.build/Objects-normal/x86_64/CheckSymbolExists.o
+
+Ld Debug/cmTryCompileExec1159201691 normal x86_64
+    cd /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp
+    export MACOSX_DEPLOYMENT_TARGET=10.11
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -L/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/Debug -F/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/Debug -filelist /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1159201691.build/Objects-normal/x86_64/cmTryCompileExec1159201691.LinkFileList -mmacosx-version-min=10.11 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1159201691.build/Objects-normal/x86_64/cmTryCompileExec1159201691_dependency_info.dat -o /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1159201691
+
+** BUILD SUCCEEDED **
+
+
+File /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTryCompileExec1979451090" "-configuration" "Debug"
+2016-03-06 11:28:52.079 xcodebuild[2587:60842] [MT] PluginLoading: Required plug-in compatibility UUID F41BD31E-2683-44B8-AE7F-5F09E919790E for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/KSImageNamed.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+=== BUILD TARGET cmTryCompileExec1979451090 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1979451090.build/Objects-normal/x86_64
+write-file /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1979451090.build/Objects-normal/x86_64/cmTryCompileExec1979451090.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1979451090.build/Objects-normal/x86_64/CheckIncludeFile.o CheckIncludeFile.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.11 -g -Wno-sign-conversion -I/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/Debug/include -I/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1979451090.build/DerivedSources/x86_64 -I/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1979451090.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/Debug -MMD -MT dependencies -MF /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1979451090.build/Objects-normal/x86_64/CheckIncludeFile.d --serialize-diagnostics /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1979451090.build/Objects-normal/x86_64/CheckIncludeFile.dia -c /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CheckIncludeFile.c -o /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1979451090.build/Objects-normal/x86_64/CheckIncludeFile.o
+
+Ld Debug/cmTryCompileExec1979451090 normal x86_64
+    cd /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp
+    export MACOSX_DEPLOYMENT_TARGET=10.11
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -L/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/Debug -F/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/Debug -filelist /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1979451090.build/Objects-normal/x86_64/cmTryCompileExec1979451090.LinkFileList -mmacosx-version-min=10.11 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1979451090.build/Objects-normal/x86_64/cmTryCompileExec1979451090_dependency_info.dat -o /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1979451090
+
+** BUILD SUCCEEDED **
+
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTryCompileExec806823267" "-configuration" "Debug"
+2016-03-06 11:28:52.987 xcodebuild[2603:60895] [MT] PluginLoading: Required plug-in compatibility UUID F41BD31E-2683-44B8-AE7F-5F09E919790E for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/KSImageNamed.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+=== BUILD TARGET cmTryCompileExec806823267 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec806823267.build/Objects-normal/x86_64
+write-file /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec806823267.build/Objects-normal/x86_64/cmTryCompileExec806823267.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec806823267.build/Objects-normal/x86_64/CheckIncludeFile.o CheckIncludeFile.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.11 -g -Wno-sign-conversion -I/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/Debug/include -I/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec806823267.build/DerivedSources/x86_64 -I/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec806823267.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/Debug -MMD -MT dependencies -MF /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec806823267.build/Objects-normal/x86_64/CheckIncludeFile.d --serialize-diagnostics /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec806823267.build/Objects-normal/x86_64/CheckIncludeFile.dia -c /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CheckIncludeFile.c -o /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec806823267.build/Objects-normal/x86_64/CheckIncludeFile.o
+
+Ld Debug/cmTryCompileExec806823267 normal x86_64
+    cd /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp
+    export MACOSX_DEPLOYMENT_TARGET=10.11
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -L/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/Debug -F/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/Debug -filelist /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec806823267.build/Objects-normal/x86_64/cmTryCompileExec806823267.LinkFileList -mmacosx-version-min=10.11 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec806823267.build/Objects-normal/x86_64/cmTryCompileExec806823267_dependency_info.dat -o /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec806823267
+
+** BUILD SUCCEEDED **
+
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTryCompileExec713421897" "-configuration" "Debug"
+2016-03-06 11:28:53.795 xcodebuild[2619:60945] [MT] PluginLoading: Required plug-in compatibility UUID F41BD31E-2683-44B8-AE7F-5F09E919790E for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/KSImageNamed.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+=== BUILD TARGET cmTryCompileExec713421897 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec713421897.build/Objects-normal/x86_64
+write-file /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec713421897.build/Objects-normal/x86_64/cmTryCompileExec713421897.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec713421897.build/Objects-normal/x86_64/CheckIncludeFile.o CheckIncludeFile.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.11 -g -Wno-sign-conversion -I/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/Debug/include -I/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec713421897.build/DerivedSources/x86_64 -I/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec713421897.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/Debug -MMD -MT dependencies -MF /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec713421897.build/Objects-normal/x86_64/CheckIncludeFile.d --serialize-diagnostics /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec713421897.build/Objects-normal/x86_64/CheckIncludeFile.dia -c /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CheckIncludeFile.c -o /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec713421897.build/Objects-normal/x86_64/CheckIncludeFile.o
+
+Ld Debug/cmTryCompileExec713421897 normal x86_64
+    cd /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp
+    export MACOSX_DEPLOYMENT_TARGET=10.11
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -L/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/Debug -F/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/Debug -filelist /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec713421897.build/Objects-normal/x86_64/cmTryCompileExec713421897.LinkFileList -mmacosx-version-min=10.11 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec713421897.build/Objects-normal/x86_64/cmTryCompileExec713421897_dependency_info.dat -o /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec713421897
+
+** BUILD SUCCEEDED **
+
+
+
+Determining if the function fseeko exists passed with the following output:
+Change Dir: /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTryCompileExec804070082" "-configuration" "Debug"
+2016-03-06 11:28:55.506 xcodebuild[2650:61037] [MT] PluginLoading: Required plug-in compatibility UUID F41BD31E-2683-44B8-AE7F-5F09E919790E for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/KSImageNamed.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+=== BUILD TARGET cmTryCompileExec804070082 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec804070082.build/Objects-normal/x86_64
+write-file /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec804070082.build/Objects-normal/x86_64/cmTryCompileExec804070082.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec804070082.build/Objects-normal/x86_64/CheckFunctionExists.o /Applications/CMake.app/Contents/share/cmake-3.2/Modules/CheckFunctionExists.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.11 -g -Wno-sign-conversion -I/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/Debug/include -I/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec804070082.build/DerivedSources/x86_64 -I/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec804070082.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/Debug -DCHECK_FUNCTION_EXISTS=fseeko -MMD -MT dependencies -MF /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec804070082.build/Objects-normal/x86_64/CheckFunctionExists.d --serialize-diagnostics /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec804070082.build/Objects-normal/x86_64/CheckFunctionExists.dia -c /Applications/CMake.app/Contents/share/cmake-3.2/Modules/CheckFunctionExists.c -o /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec804070082.build/Objects-normal/x86_64/CheckFunctionExists.o
+
+Ld Debug/cmTryCompileExec804070082 normal x86_64
+    cd /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp
+    export MACOSX_DEPLOYMENT_TARGET=10.11
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -L/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/Debug -F/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/Debug -filelist /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec804070082.build/Objects-normal/x86_64/cmTryCompileExec804070082.LinkFileList -mmacosx-version-min=10.11 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec804070082.build/Objects-normal/x86_64/cmTryCompileExec804070082_dependency_info.dat -o /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec804070082
+
+** BUILD SUCCEEDED **
+
+
+
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTryCompileExec814770685" "-configuration" "Debug"
+2016-03-06 11:28:56.336 xcodebuild[2666:61083] [MT] PluginLoading: Required plug-in compatibility UUID F41BD31E-2683-44B8-AE7F-5F09E919790E for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/KSImageNamed.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+=== BUILD TARGET cmTryCompileExec814770685 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec814770685.build/Objects-normal/x86_64
+write-file /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec814770685.build/Objects-normal/x86_64/cmTryCompileExec814770685.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec814770685.build/Objects-normal/x86_64/CheckIncludeFile.o CheckIncludeFile.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.11 -g -Wno-sign-conversion -I/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/Debug/include -I/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec814770685.build/DerivedSources/x86_64 -I/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec814770685.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/Debug -MMD -MT dependencies -MF /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec814770685.build/Objects-normal/x86_64/CheckIncludeFile.d --serialize-diagnostics /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec814770685.build/Objects-normal/x86_64/CheckIncludeFile.dia -c /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CheckIncludeFile.c -o /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec814770685.build/Objects-normal/x86_64/CheckIncludeFile.o
+
+Ld Debug/cmTryCompileExec814770685 normal x86_64
+    cd /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp
+    export MACOSX_DEPLOYMENT_TARGET=10.11
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -L/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/Debug -F/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/Debug -filelist /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec814770685.build/Objects-normal/x86_64/cmTryCompileExec814770685.LinkFileList -mmacosx-version-min=10.11 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec814770685.build/Objects-normal/x86_64/cmTryCompileExec814770685_dependency_info.dat -o /Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec814770685
+
+** BUILD SUCCEEDED **
+
+
+
