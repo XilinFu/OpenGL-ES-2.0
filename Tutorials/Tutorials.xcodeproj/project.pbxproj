@@ -2927,6 +2927,8 @@
 		C32F49F2A2044EE4A05ABBD8 /* BlenderLoader.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = BlenderLoader.h; path = "external/assimp-3.0.1270/code/BlenderLoader.h"; sourceTree = SOURCE_ROOT; };
 		C34ACACCA0EE40A18D9AA45B /* btSliderConstraint.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = btSliderConstraint.h; path = "external/bullet-2.81-rev2613/src/BulletDynamics/ConstraintSolver/btSliderConstraint.h"; sourceTree = SOURCE_ROOT; };
 		C3A1148C62AC4F6C9F1E03DA /* objloader.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = objloader.cpp; path = common/objloader.cpp; sourceTree = SOURCE_ROOT; };
+		C3EB1F191C8BDE40007F248D /* Vertex.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Vertex.glsl; path = playground/Vertex.glsl; sourceTree = "<group>"; };
+		C3EB1F1A1C8BDE52007F248D /* Fragment.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Fragment.glsl; path = playground/Fragment.glsl; sourceTree = "<group>"; };
 		C3FB3350187F4A49BFEA667F /* FindDegenerates.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = FindDegenerates.h; path = "external/assimp-3.0.1270/code/FindDegenerates.h"; sourceTree = SOURCE_ROOT; };
 		C4A8D42529A443D9BEB2C22E /* tutorial18_particles.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = tutorial18_particles.cpp; path = tutorial18_billboards_and_particles/tutorial18_particles.cpp; sourceTree = SOURCE_ROOT; };
 		C54A9A9563B747AE8C1A9629 /* RemoveComments.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = RemoveComments.h; path = "external/assimp-3.0.1270/code/RemoveComments.h"; sourceTree = SOURCE_ROOT; };
@@ -4238,6 +4240,7 @@
 		530B8E69C17644D2877BBB9B /* playground */ = {
 			isa = PBXGroup;
 			children = (
+				C3EB1F181C8BDE1E007F248D /* Shaders */,
 				BBC0E3FEACE64BC58CE965CC /* Source Files */,
 				FCA62C40567047D6ACAE5963 /* common */,
 				9583BE197E4D4A61AB60AB59 /* CMakeLists.txt */,
@@ -5851,6 +5854,15 @@
 				18D2C8862A48488B9CD909EE /* CMakeLists.txt */,
 			);
 			name = tutorial14_render_to_texture;
+			sourceTree = "<group>";
+		};
+		C3EB1F181C8BDE1E007F248D /* Shaders */ = {
+			isa = PBXGroup;
+			children = (
+				C3EB1F191C8BDE40007F248D /* Vertex.glsl */,
+				C3EB1F1A1C8BDE52007F248D /* Fragment.glsl */,
+			);
+			name = Shaders;
 			sourceTree = "<group>";
 		};
 		C57D4C6F8A7C43C085035EAD /* shaders */ = {
@@ -10431,6 +10443,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk;
 				SYMROOT = "/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/build";
@@ -18296,6 +18309,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk;
 				SYMROOT = "/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/build";
@@ -22954,6 +22968,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk;
 				SYMROOT = "/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/build";
@@ -23146,6 +23161,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk;
 				SYMROOT = "/Users/administrator/Desktop/OpenGL-ES-2.0/Tutorials/build";
