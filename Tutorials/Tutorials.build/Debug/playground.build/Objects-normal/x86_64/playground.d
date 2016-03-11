@@ -80,4 +80,5 @@ dependencies: \
   /Users/administrator/Downloads/ogl-OpenGL-tutorial_0015_21-2/external/glm-0.9.7.1/glm/gtc/../gtc/constants.hpp \
   /Users/administrator/Downloads/ogl-OpenGL-tutorial_0015_21-2/external/glm-0.9.7.1/glm/gtc/constants.inl \
   /Users/administrator/Downloads/ogl-OpenGL-tutorial_0015_21-2/external/glm-0.9.7.1/glm/gtc/matrix_transform.inl \
-  /Users/administrator/Downloads/ogl-OpenGL-tutorial_0015_21-2/common/shader.hpp
+  /Users/administrator/Downloads/ogl-OpenGL-tutorial_0015_21-2/common/shader.hpp \
+  /Users/administrator/Downloads/ogl-OpenGL-tutorial_0015_21-2/common/texture.hpp
